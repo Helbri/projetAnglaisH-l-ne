@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modification Fiche</title>
+    <link rel="stylesheet" href="StyleSheet/styleSheet.css" />
+  </head>
+  <body>
+    <main>
+      menu <a href="index.html">accueil</a>
+
+      <div class="mainElement">
+        Pierre de Lune <br />
+        <a href="profil.html">Accéder au profil</a>
+        <span class="image-rogne-cadre">
+          <img
+            src="media/outlaw-futuriste.png"
+            alt="outlaw futuriste image d'avatar
+      "
+          /> </span
+        ><br />
+        <a href="pageConnexion.html">déconnexion</a>
+      </div>
+      <div class="mainElement">
+        (Barre de Recherche) <br />
+        <input type="text" /> <input type="button" value="Rechercher" />
+      </div>
+      <div class="mainElement">
+        <a href="ajoutMot.html">Ajouter un mot</a> <br />
+        <a href="fiche.html">Modifier une fiche</a>
+      </div>
+      <div class="mainElement">
+        <a href="liste.html">Dictionnaire de mots</a>
+      </div>
+      <div class="mainElement">
+        Planches par thème <br />
+        <label for="pet-select">Choose a pet:</label>
+
+        <select name="pets" id="pet-select">
+          <option value="">--Please choose an option--</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="hamster">Hamster</option>
+          <option value="parrot">Parrot</option>
+          <option value="spider">Spider</option>
+          <option value="goldfish">Goldfish</option>
+        </select>
+        <label for="pet-select">Choose a city:</label>
+
+        <select name="pets" id="city-select">
+          <option value="">--Please choose an option--</option>
+          <option value="dog">Monaco</option>
+          <option value="cat">Clermont-Ferrand</option>
+          <option value="hamster">Aubière</option>
+          <option value="parrot">Chamalières</option>
+          <option value="spider">Royat</option>
+          <option value="goldfish">Ceyrat</option></select
+        ><label for="pet-select">
+          <br />
+          Choose a food:</label
+        >
+        <br />
+        <select name="food" id="food-select">
+          <option value="">--Please choose an option--</option>
+          <option value="burger">Dog</option>
+          <option value="kebab">Cat</option>
+          <option value="pizza">Hamster</option>
+          <option value="sandwich">Parrot</option>
+          <option value="icecream">Spider</option>
+          <option value="peanuts">Goldfish</option>
+        </select>
+      </div>
+    </main>
+    <aside>
+      <form action=""></form>
+      Intitulé du mot actuel: Bière <br />
+      <div class="divChange">
+        <label class="labelChange" for="idInt">Changer l'intitulé:</label
+        ><input type="text" id="idInt" />
+        <input type="reset" value="Réinitialiser" /><br /><br />
+      </div>
+      Phonétique actuelle: jjuiu_uyi <br />
+      <div class="divChange">
+        <label class="labelChange" for="idPhoChange"
+          >Changer la phonétique:</label
+        >
+        <input type="text" id="idPhoChange" />
+        <input type="reset" value="Réinitialiser" />
+      </div>
+      <br />Classe actuelle: nom
+      <div class="divChange">
+        <br />
+        <label class="labelChange" for="idIntChange">Changer l'intitulé:</label
+        ><input type="text" id="idIntChange" />
+        <input type="reset" value="Réinitialiser" />
+      </div>
+      <br />Définition actuelle: <br /><br />
+      Blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla
+      blabla
+      <div class="divChange">
+        <br /><br /><label class="labeslChange" for="IdDefChange"
+          >Changer la définition:</label
+        >
+        <textarea name="" id="IdDefChange" cols="30" rows="10"></textarea>
+        <input type="reset" value="Réinitialiser" />
+      </div>
+      <a href="validationFiche.html"
+        ><br /><br />Aller sur la page de validation de la Fiche</a
+      >
+      <br /><a href="index.html"
+        >Retour à l'index sans valider les changements</a
+      >
+    </aside>
+  </body>
+</html>

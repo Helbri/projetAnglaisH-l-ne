@@ -1,0 +1,36 @@
+/* .image-rogne-cadre{
+    overflow: hidden;
+    object-fit: cover;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    border-radius: 0%;
+} */
+.image-container {
+    width: 300px; /* Définissez la largeur souhaitée pour l'image */
+    height: 300px; /* Définissez la hauteur souhaitée pour l'image fenêtre d'affichage de l'image*/
+    position: relative; /* Positionnement relatif pour les divs internes */
+    overflow: hidden; /* Cache le contenu débordant de la div */
+  }
+
+  .hidden-part {
+    position: absolute; /* Positionnement absolu pour la partie masquée */
+    top: 0;
+    left: 0;
+    width: 100%; /* Occupera toute la largeur du conteneur */
+    height: 100%; /* Occupera toute la hauteur du conteneur */
+    background-color: black; /* Couleur de la partie masquée */
+  }
+
+  .visible-part {
+    position: absolute; /* Positionnement absolu pour la partie visible */
+    top: -150px; /* Décalage vertical de la partie visible */
+    left: -100px; /* Décalage horizontal de la partie visible */
+    width: 400px; /* Largeur de la partie visible */
+    height: 200px; /* Hauteur de la partie visible */
+    background-color: white; /* Couleur de la partie visible */
+  }
+  .visible-part img {
+    width: 100%; /* Définissez la largeur de l'image à 100% du conteneur */
+    height: auto; /* Hauteur automatique pour conserver le ratio d'aspect */
+  }

@@ -1,0 +1,16 @@
+/* .labelTest{
+    width: 200px;
+    background-color: aqua;
+} */
+
+.divForm-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    flex-basis: 150px; /*Ajustez la largeur selon vos besoins*/
+    flex-shrink: 0;
+    margin-right: 10px; /*Ajoutez un espace entre l'étiquette et le champ de texte*/
+}

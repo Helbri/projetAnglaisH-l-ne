@@ -1,0 +1,30 @@
+body{
+    margin: 10% 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+.formLabelConnex{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.divConnexion{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+label{
+    flex-basis: 150 px;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+.inputText{
+    size: 50px;
+}
+a{
+    color: black;
+}
+
