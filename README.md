@@ -24,4 +24,4 @@ Le site contiendra un espace pour:
 
 Lien pour le projet Figma, en cours de réalisation: 
 
-https://www.figma.com/file/DVGpgfaMMIyQzoEzYwS6Ox/Untitled?type=design&mode=design&t=LhTY7RjnIuk5L4RB-1
+https://www.figma.com/file/DVGpgfaMMIyQzoEzYwS6Ox/Maquettage-site-anglais?type=design&mode=design&t=I3jznBcwYMxL71AV-1
